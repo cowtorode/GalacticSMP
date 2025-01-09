@@ -2,6 +2,7 @@ package server.Galactica.eventListenersTest;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -27,6 +28,7 @@ public final class EventListenersTest extends JavaPlugin implements Listener {
         if (targetPlayer != null && targetPlayer.isOnline()) {
             // Send the message to the target player
             targetPlayer.sendMessage(ChatColor.BLUE + joinedPlayer.getName() + ChatColor.GOLD + "has joined" + ChatColor.AQUA + "GALATICASMP");
+            targetPlayer.playSound(targetPlayer.getLocation(), Sound.ENTITY_CREEPER_PRIMED, 1.0f, 1.0f)
         } else {
             //Target player is not online
             System.out.println("Target player " + targetPlayerName + " is not online.");
