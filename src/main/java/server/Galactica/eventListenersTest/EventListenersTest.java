@@ -28,7 +28,7 @@ public final class EventListenersTest extends JavaPlugin implements Listener {
         if (targetPlayer != null && targetPlayer.isOnline()) {
             // Send the message to the target player
             targetPlayer.sendMessage(ChatColor.BLUE + joinedPlayer.getName() + ChatColor.GOLD + "has joined" + ChatColor.AQUA + "GALATICASMP");
-            targetPlayer.playSound(targetPlayer.getLocation(), Sound.ENTITY_CREEPER_PRIMED, 1.0f, 1.0f)
+            targetPlayer.playSound(targetPlayer.getLocation(), Sound.ENTITY_CREEPER_PRIMED, 10.0f, 1.0f)
         } else {
             //Target player is not online
             System.out.println("Target player " + targetPlayerName + " is not online.");
