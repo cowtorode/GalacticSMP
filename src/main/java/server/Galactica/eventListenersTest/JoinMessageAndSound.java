@@ -10,7 +10,7 @@ import org.bukkit.event.player.PlayerBedEnterEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class EventListenersTest extends JavaPlugin implements Listener {
+public final class JoinMessageAndSound extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {

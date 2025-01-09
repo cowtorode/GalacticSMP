@@ -1,4 +1,4 @@
 name: EventListenersTest
 version: '1.0-SNAPSHOT'
-main: server.Galactica.eventListenersTest.EventListenersTest
+main: server.Galactica.eventListenersTest.JoinMessageAndSound
 api-version: '1.21'
