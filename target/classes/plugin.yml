@@ -1,0 +1,4 @@
+name: EventListenersTest
+version: '1.0-SNAPSHOT'
+main: server.Galactica.eventListenersTest.EventListenersTest
+api-version: '1.21'
