@@ -1,4 +1,4 @@
-name: EventListenersTest
-version: '1.0-SNAPSHOT'
-main: server.Galactica.eventListenersTest.JoinMessageAndSound
+name: GalacticCore
+version: '1.0'
+main: com.galactic.GalacticCore
 api-version: '1.21'
