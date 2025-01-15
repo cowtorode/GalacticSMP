@@ -1,0 +1,12 @@
+name: GalacticCore
+version: 1.0.0
+main: com.galactic.GalacticCore
+description: Core plugin for the SMP
+author: Cory Torode
+api-version: 1.21.4
+load: STARTUP
+bootstrapper: com.galactic.GalacticBootstrap
+loader: com.galactic.GalacticLoader
+defaultPerm: FALSE
+permissions:
+dependencies:
