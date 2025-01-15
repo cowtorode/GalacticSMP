@@ -14,6 +14,10 @@ public class DeathListener implements Listener
         Player player = event.getEntity();
         Location loc = player.getLocation();
 
-        player.sendMessage("You died at (" + loc.getX() + ", " + loc.getY() + ", " + loc.getZ() + ")");
+        // TODO before we do this, is there a gamerule?
+        // take out exp dropping when you die
+        //event.setShouldDropExperience(false);
+
+        player.sendMessage("You died at (" + loc.getBlockX() + ", " + loc.getBlockY() + ", " + loc.getBlockZ() + ")");
     }
 }
