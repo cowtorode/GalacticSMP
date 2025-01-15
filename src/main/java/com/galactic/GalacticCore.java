@@ -1,5 +1,6 @@
 package com.galactic;
 
+import com.galactic.events.ChatListener;
 import com.galactic.events.DeathListener;
 import com.galactic.events.JoinListener;
 import org.bukkit.Bukkit;
@@ -26,6 +27,7 @@ public class GalacticCore extends JavaPlugin
 
     private void registerEvents()
     {
+        getServer().getPluginManager().registerEvents(new ChatListener(this), this);
         getServer().getPluginManager().registerEvents(new DeathListener(), this);
         getServer().getPluginManager().registerEvents(new JoinListener(this), this);
     }

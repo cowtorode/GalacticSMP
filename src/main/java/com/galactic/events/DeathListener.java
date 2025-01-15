@@ -14,6 +14,6 @@ public class DeathListener implements Listener
         Player player = event.getEntity();
         Location loc = player.getLocation();
 
-        player.sendMessage("You died at (" + loc.getX() + ", " + loc.getY() + ", " + loc.getZ() + ")");
+        player.sendMessage("&7You died at (" + loc.getX() + ", " + loc.getY() + ", " + loc.getZ() + ")");
     }
 }
