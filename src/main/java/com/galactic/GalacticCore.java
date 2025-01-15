@@ -51,6 +51,7 @@ public class GalacticCore extends JavaPlugin
         });
     }
 
+
     private void registerEvents()
     {
         PluginManager manager = getServer().getPluginManager();
